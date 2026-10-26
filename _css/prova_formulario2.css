@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(217, 240, 240);
+    background-image: url(../_img/959750.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.div {
+    text-align: center;
+    border: 2px solid rgb(24, 248, 4);
+    border-radius: 8px;
+    padding: 1px;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.70);
+    margin: 500px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration:double
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px;
+    background-color: rgb(126, 189, 126);
+    font-size: larger;
+    border-radius: 5px;
+}
+
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.div2 {
+    text-align: center;
+    border: 2px solid rgb(85, 135, 155);
+    border-radius: 5px;
+    padding: 1px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.70);
+    margin: 5px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.botao{
+    border: solid 2px;
+    background-color: lightgreen;
+}
+.area{
+    resize: none;
+}
+.h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px;
+    background-color: rgb(126, 189, 126);
+    font-size: larger;
+    border-radius: 5px;

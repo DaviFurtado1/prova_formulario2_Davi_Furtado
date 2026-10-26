@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário pessoal</title>
+    <link rel="stylesheet" href="_css/prova_formulario2.css">
+</head>
+
+<body>
+    <h1 class="h1">Formulário pessoal</h1>
+    <div class="div">
+        <h1>Dados</h1>
+
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="digite seu nome" name="nome">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" placeholder="digite seu telefone" name="telefone">
+        <p></p>
+        <label for="nome">Email:</label>
+        <input type="email" placeholder="digite seu email" name="email">
+        <label for="cidade">Cidade:</label>
+        <input type="text" placeholder="Digite sua cidade">
+        <form>
+            <h1>Seção de escolhas</h1>
+
+            <h2>Comida favorita:</h2>
+            <select name="pais" id="pais">
+                <option value="comida1">Selecione uma opção</option>
+                <option value="comida2">Lasanha</option>
+                <option value="comida3">Sushi</option>
+                <option value="comida4">estrogonofe</option>
+                <option value="comida5">Feijão</option>
+            </select>
+
+            <h1>Horário prefeiro pra dormir</h1>
+            <input type="checkbox" value="1" name="check1">Manhã
+            <input type="checkbox" value="2" name="check1">Tarde
+            <input type="checkbox" value="3" name="check1">Noite
+            <p></p>
+
+            <h1>Estética favorita</h1>
+            <input type="radio" value="1" name="opcao">Fruitgear Aero
+            <p></p>
+            <input type="radio" value="2" name="opcao">Fruitgear Metro
+            <p></p>
+            <input type="radio" value="3" name="opcao">Y2k
+            <p></p>
+            <input type="radio" value="4" name="opcao">Grunge
+            <p></p>
+            <input type="radio" value="5" name="opcao">Flat
+            <p></p>
+            <input type="radio">Gothic
+            <p></p>
+            
+            <form>
+                <fieldset>
+                    <legend class="h1">Tipo de mídia favorita</legend>
+                    <input type="radio" value="1" name="opcao2">Videogame
+                    <p></p>
+                    <input type="radio" value="2" name="opcao2">Cinema
+                    <p></p>
+                    <input type="radio" value="3" name="opcao2">Teatro
+                    <p></p>
+                    <input type="radio" value="4" name="opcao2">Literatura
+                    <hr>
+                    <h1>Alguma sugestão?</h1>
+                    <textarea class="area" name="area" id="area"></textarea>
+                </fieldset>
+                <input class="botao" type="submit" value="Enviar Respostas">
+                <input class="botao" type="reset" value="Limpar">
+            </form>
+        </form>
+</body>
+
+</html>
